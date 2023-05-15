@@ -3,9 +3,9 @@
 #include "binary_trees.h"
 
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * binary_tree_size - Entry point
+ * @tree: pointer to the node 
+ *  Return: the size of a binary tree
  */
 size_t binary_tree_size(const binary_tree_t *tree)
 {
