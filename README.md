@@ -14,3 +14,33 @@ A binary tree is a tree data structure in which each parent node can have at mos
 
 ## How to run
 `./<output_executable_name>`
+
+## Files :gear:
+All of the following files are programs written in C :
+
+|**Filename**|**Description**|
+|:-------|:---------:|
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+|``||
+
+## Authors :writing_hand:
+Written by :
+- **[Noah Vernhet](https://github.com/truuue)**<br>
+- **[Hugo Castéras](https://github.com/hug0-cstrs)**
