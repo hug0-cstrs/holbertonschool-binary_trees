@@ -9,13 +9,13 @@ A binary tree is a tree data structure in which each parent node can have at mos
   <img src="https://techvidvan.com/tutorials/wp-content/uploads/sites/2/2021/07/Binary-Trees-in-C-normal-image01.jpg" alt="binary tree" />
 </p>
 
-## How to compile :gear:
+## How to compile :hammer_and_wrench:
 `gcc -Wall -Wextra -Werror -pedantic <files> -o <output_executable_name>`
 
-## How to run
+## How to run :gear:
 `./<output_executable_name>`
 
-## Files
+## Files :scroll:
 All of the following files are programs written in C :
 
 |**Filename**|**Description**|
