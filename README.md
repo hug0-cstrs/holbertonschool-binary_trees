@@ -43,4 +43,5 @@ All of the following files are programs written in C :
 ## Authors :writing_hand:
 Written by :
 - **[Noah Vernhet](https://github.com/truuue)**<br>
+- **[Adam Diallo](https://github.com/adamdiallo2k)**<br>
 - **[Hugo Castéras](https://github.com/hug0-cstrs)**
