@@ -4,23 +4,30 @@
 
 /**
  * binary_tree_is_full - checks if a binary tree is full
- * the height of a binary tree
  * @tree: the node
- * Return: checks if a binary tree is full
+ * Return: 1 if the tree or 0 if the to be the
+ *         full
  */
 
-int binary_tree_is_full(const binary_tree_t *tree)
+int  binary_tree_is_full(const, const binary_tree_t *tree)
 {
-    if (!tree)
+    if (tree == NULL)
     {
-        return (0);
+        return 1;
     }
-    if (tree->left && tree->right && tree->parent)
+    
+    if ((tree->left == NULL && tree->right != NULL) || (tree->left != NULL && tree->right == NULL))
     {
-        return (1);
+        return 0;
     }
-    else 
+    
+    if (tree->left == NULL && tree->right == NULL)
     {
-        return (0);
+        return 1;
+    }
+    
+    if (tree->left != NULL && tree->right != NULL)
+    {
+        return binary_tree_is_full(tree->left) && binary_tree_is_full(tree->right);
     }
 }
