@@ -2,13 +2,13 @@
 #include <stdio.h>
 #include "binary_trees.h"
 
-/**
+/** 
  * binary_tree_is_full - checks if a binary tree is full
  * @tree: the node
  * Return: 1 if the tree or 0 if  full
  */
 
-int  binary_tree_is_full(const, const binary_tree_t *tree)
+int binary_tree_is_full(const, const binary_tree_t *tree)
 {
     if (tree == NULL)
     {
